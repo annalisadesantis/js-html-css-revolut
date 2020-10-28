@@ -17,6 +17,8 @@ header{
     justify-content: space-between;
 }
 
+/* Header Left---------------------------- */
+
 .header-left{
     height: 100%;
     display: flex;
@@ -49,6 +51,7 @@ header{
     font-weight: 500;
 }
 
+/* Header Right -------------------------- */
 
 .header-right{
     /* background-color: yellow; */
@@ -64,12 +67,12 @@ header{
 
 .header-right ul li{
     display: inline-block;
+    margin-right: 30px;
 }
 
 .header-right ul li a{
     text-decoration: none;
     color: #c0c0c0;
-    margin-right: 30px;
 }
 
 .header-right ul li a:hover{
@@ -77,6 +80,88 @@ header{
     font-weight: 500;
 }
 
+/* Menu a tendina abb----------------------- */
+
+.dropdown-abb{
+    position: relative;
+}
+
+.dropdown-menu-abb{
+    position: absolute;
+    top: 33px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 8px 8px;
+    display: none;
+}
+
+.dropdown-menu-abb a{
+    display: block;
+    padding: 10px;
+    color: red;
+}
+
+.dropdown-menu-abb.active{
+    display: block;
+}
+
+/* Menu a tendina chisiamo----------------------- */
+
+.dropdown-chisiamo{
+    position: relative;
+}
+
+.dropdown-menu-chisiamo{
+    position: absolute;
+    top: 33px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 8px 8px;
+    display: none;
+}
+
+.dropdown-menu-chisiamo a{
+    display: block;
+    padding: 10px;
+    color: red;
+}
+
+.dropdown-menu-chisiamo.active{
+    display: block;
+}
+
+/* Menu a tendina aiuto----------------------- */
+
+.dropdown-aiuto{
+    position: relative;
+}
+
+.dropdown-menu-aiuto{
+    position: absolute;
+    top: 33px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 8px 8px;
+    display: none;
+}
+
+.dropdown-menu-aiuto a{
+    display: block;
+    padding: 10px;
+    color: red;
+}
+
+.dropdown-menu-aiuto.active{
+    display: block;
+}
+
+/* Bottoni------------------ */
 .accedi{
     background-color: rgba(25, 28, 31, 0.16);
     padding: 10px 20px;
