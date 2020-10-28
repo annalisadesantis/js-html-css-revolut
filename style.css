@@ -132,6 +132,19 @@ header{
     display: block;
 }
 
+.big-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+    position: absolute;
+    top: 33px;
+    left: -400px;
+}
+
+.container-menu{
+    margin-right: 30px;
+}
+
 /* Bottoni------------------ */
 
 .accedi{
