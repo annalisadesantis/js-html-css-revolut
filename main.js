@@ -11,13 +11,16 @@ $(document).ready(function() {
        $(this).removeClass('active');
    });
 
-
-
-
-   // // // Soluzione 2-----------------------
+   // // Soluzione 2-----------------------
    // $('.menu-app').click(function() {
    //     $(this).next(".dropdown-menu").toggleClass('active');
    // });
+
+   // Click hambuger menu
+   $('.header-right .fa-bars').click(function() {
+       $(".menu-hamburger").toggleClass("active");
+   });
+
 
 
 });
