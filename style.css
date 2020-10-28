@@ -80,13 +80,13 @@ header{
     font-weight: 500;
 }
 
-/* Menu a tendina abb----------------------- */
+/* Menu a tendina----------------------- */
 
-.dropdown-abb{
+.dropdown-item{
     position: relative;
 }
 
-.dropdown-menu-abb{
+.dropdown-menu{
     position: absolute;
     top: 33px;
     width: 180px;
@@ -97,7 +97,7 @@ header{
     display: none;
 }
 
-.dropdown-menu-abb a{
+.dropdown-menu a{
     display: block;
     padding: 10px;
     color: red;
@@ -107,54 +107,8 @@ header{
     display: block;
 }
 
-/* Menu a tendina chisiamo----------------------- */
-
-.dropdown-chisiamo{
-    position: relative;
-}
-
-.dropdown-menu-chisiamo{
-    position: absolute;
-    top: 33px;
-    width: 180px;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    padding: 8px 8px;
-    display: none;
-}
-
-.dropdown-menu-chisiamo a{
-    display: block;
-    padding: 10px;
-    color: red;
-}
-
 .dropdown-menu-chisiamo.active{
     display: block;
-}
-
-/* Menu a tendina aiuto----------------------- */
-
-.dropdown-aiuto{
-    position: relative;
-}
-
-.dropdown-menu-aiuto{
-    position: absolute;
-    top: 33px;
-    width: 180px;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    padding: 8px 8px;
-    display: none;
-}
-
-.dropdown-menu-aiuto a{
-    display: block;
-    padding: 10px;
-    color: red;
 }
 
 .dropdown-menu-aiuto.active{
