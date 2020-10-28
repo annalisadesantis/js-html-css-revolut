@@ -11,23 +11,23 @@ body{
 /* HEADER ----------------------- */
 
 header{
-    background-color: pink;
+    background-color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-left{
-    background-color: red;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .header-left img{
     width: 40px;
     height: 40px;
+    margin-right: 40px;
 }
 
 .header-left ul{
@@ -40,12 +40,70 @@ header{
 
 .header-left ul li a{
     text-decoration: none;
+    color: #c0c0c0;
+    margin-right: 30px;
+}
+
+.header-left ul li a:hover{
+    color: black;
+    font-weight: 500;
 }
 
 
-
 .header-right{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 100%;
-    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right ul{
+    list-style-type: none;
+}
+
+.header-right ul li{
+    display: inline-block;
+}
+
+.header-right ul li a{
+    text-decoration: none;
+    color: #c0c0c0;
+    margin-right: 30px;
+}
+
+.header-right ul li a:hover{
+    color: black;
+    font-weight: 500;
+}
+
+.accedi{
+    background-color: rgba(25, 28, 31, 0.16);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.accedi:hover{
+    background-color: #a9a9a9;
+}
+
+.scarica{
+    background-color: rgb(25, 28, 31);
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.scarica:hover{
+    background-color: rgba(25, 28, 31, 0.84);
 }
