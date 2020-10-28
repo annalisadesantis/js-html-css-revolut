@@ -7,13 +7,11 @@ $(document).ready(function() {
         $(this).next(".dropdown-menu").addClass('active');
    });
 
-   // $('.dropdown-menu').mouseleave(function() {
-   //     $(this).removeClass('active');
-   // });
-
-   $('.dropdown-item').mouseleave(function() {
-       $('.dropdown-menu').removeClass('active');
+   $('.dropdown-menu').mouseleave(function() {
+       $(this).removeClass('active');
    });
+
+
 
 
    // // // Soluzione 2-----------------------
