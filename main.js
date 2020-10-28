@@ -7,11 +7,15 @@ $(document).ready(function() {
         $(this).next(".dropdown-menu").addClass('active');
    });
 
-   $('.dropdown-menu').mouseleave(function() {
-       $(this).removeClass('active');
+   // $('.dropdown-menu').mouseleave(function() {
+   //     $(this).removeClass('active');
+   // });
+
+   $('.dropdown-item').mouseleave(function() {
+       $('.dropdown-menu').removeClass('active');
    });
 
-   
+
    // // // Soluzione 2-----------------------
    // $('.menu-app').click(function() {
    //     $(this).next(".dropdown-menu").toggleClass('active');
